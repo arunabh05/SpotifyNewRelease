@@ -17,7 +17,7 @@ body {
 	height: 83vh;
 	text-align: center;
 	background-image:
-		url(http://www.kimberly-caldwell.com/wp-content/themes/kimberly-caldwell/images/home-music-background.jpg);
+		url(/images/download.jpg);
 	background-position: top; // background-color : rgba( 6, 27, 61, 0.9);
 	color: rgba(242, 242, 242, 1);
 	background-color: rgba(6, 27, 61, 0.9)
