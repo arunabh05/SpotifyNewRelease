@@ -1,0 +1,47 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: black;
+	font: 13pt Calibri, Tahoma, Verdana;
+}
+
+.navBar {
+	border-radius: 1px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#home {
+	padding-top: 150px;
+	margin: 0px;
+	height: 83vh;
+	text-align: center;
+	background-image:
+		url(http://www.kimberly-caldwell.com/wp-content/themes/kimberly-caldwell/images/home-music-background.jpg);
+	background-position: top; // background-color : rgba( 6, 27, 61, 0.9);
+	color: rgba(242, 242, 242, 1);
+	background-color: rgba(6, 27, 61, 0.9)
+}
+
+#tracks {
+	padding: 15px;
+	margin: 0px;
+	height: 83vh;
+	text-align: center;
+	background-position: top;
+	border-radius: 1px;
+	background-color: rgba(83, 141, 232, .08);
+	color: rgba(242, 242, 242, 1);
+}
+.img-track{
+	margin-top:20px;
+	width: 200px;
+	height: 190px;	
+}
+
+#footer {
+	border-radius: 2px;
+	height: 11vh;
+	padding-top: 25px;
+	text-align: center;
+}

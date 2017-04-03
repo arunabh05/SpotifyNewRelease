@@ -1,0 +1,12 @@
+<!-- public/views/nerd.html -->
+
+<div id="tracks" class="jumbotron text-center">
+    <h3>New Releases</h3>
+	<div class='row'>
+		<div ng-repeat="data in tracks.data" class="col-md-2">
+		    <img class="img-rounded img-track" ng-src="{{data.images[1].url}}"/>
+		    <h4>{{data.artists[0].name}}</h4>
+		    <h4>{{data.name}}</h4>
+		</div>
+	</div>	
+</div>
