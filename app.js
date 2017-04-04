@@ -33,6 +33,8 @@ var spotify = require('./routes/spotify.js');
 app.get('/', routes.index); // load index.ejs 
 app.get('/api/tracks', spotify.tracks); // load spotify new release songs list
 app.get('/tracks',routes.index);
+app.get('/tracklist',routes.index);
+
 
 http.createServer(app).listen(app.get('port'), function(){
 	console.log('Express server listening on port ' + app.get('port'));

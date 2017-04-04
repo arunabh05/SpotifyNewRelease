@@ -13,8 +13,10 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
         .when('/tracks', {
             templateUrl: 'views/tracks.html',
             controller: 'TrackController'
-        });
-
+        })
+		.when('/tracklist', {
+        templateUrl: 'views/tracklist.html',
+        controller: 'TrackController'
+    });
     $locationProvider.html5Mode(true);
-
 }]);

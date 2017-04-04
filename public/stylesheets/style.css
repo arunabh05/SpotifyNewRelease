@@ -10,11 +10,20 @@ body {
 	padding: 0px;
 	margin: 0px;
 }
+#track-details{
+	padding: 0px;
+	margin: 0px;
+}
+#row{
+	padding: 0px;
+	margin: 0px;
+}
 
 #home {
-	padding-top: 150px;
+	padding-top: 250px;
 	margin: 0px;
 	height: 83vh;
+	width: inherit;
 	text-align: center;
 	background-image:
 		url(/images/download.jpg);
@@ -24,23 +33,23 @@ body {
 
 #tracks {
 	background-color: inherit;
-	padding: 15px;
+	padding-top: 50px;
 	margin: 0px;
 	height: 83vh;
 	text-align: center;
 	background-position: top;
 	border-radius: 1px;
-	color: rgba(242, 242, 242, 1);
+	color: rgba(222, 222, 222, 1);
 }
+
 .img-track{
 	margin-top:20px;
 	width: 200px;
 	height: 190px;	
 }
 
-#footer {
-	border-radius: 2px;
-	height: 11vh;
-	padding-top: 25px;
-	text-align: center;
+
+#tracks-table{
+	color: rgba(22, 22, 22, 1);
+	background-color: white;
 }

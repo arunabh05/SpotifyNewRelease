@@ -10,7 +10,13 @@ function($scope, $http) {
 			method : "GET",
 			url : '/api/tracks',
 		}).then(function(data) {
+			console.log(data.data);
 			$scope.tracks = data.data;
 		});
 	}
+
+	  $scope.sortType     = 'album'; // set the default sort type
+	  $scope.sortReverse  = false;  // set the default sort order
+	  $scope.searchTrack   = '';     // set the default search/filter term
+	  
 });
