@@ -1,7 +1,6 @@
 body {
 	padding: 0px;
 	margin: 0px;
-	background-color : rgba( 6, 27, 61, 0.9);
 	font: 13pt Calibri, Tahoma, Verdana;
 }
 
@@ -22,20 +21,21 @@ body {
 #home {
 	padding-top: 250px;
 	margin: 0px;
-	height: 83vh;
+	height: 95vh;
 	width: inherit;
 	text-align: center;
+	background-size: 100%;
 	background-image:
-		url(/images/download.jpg);
-	background-position: top; 
+		url(/images/download.png);
 	color: rgba(242, 242, 242, 1);
 }
 
 #tracks {
-	background-color: inherit;
+	background-image:
+		url(/images/download.jpg);
 	padding-top: 50px;
 	margin: 0px;
-	height: 83vh;
+	height: 95vh;
 	text-align: center;
 	background-position: top;
 	border-radius: 1px;
@@ -52,4 +52,11 @@ body {
 #tracks-table{
 	color: rgba(22, 22, 22, 1);
 	background-color: white;
+}
+#footer{
+	background-color: rgb(231, 231, 231);
+	border-radius: 2px;
+	height: 5vh;
+	text-align: center;
+	width: 100%;
 }
