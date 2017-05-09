@@ -5,9 +5,9 @@
 
 var express = require('express')
   , routes = require('./routes')
-  , user = require('./routes/user')
   , http = require('http')
   , path = require('path');
+var spotify = require('./routes/spotify.js');
 
 var app = express();
 
@@ -28,8 +28,6 @@ if ('development' == app.get('env')) {
 }
 
 // routes ==================================================
-var spotify = require('./routes/spotify.js');
-
 app.get('/', routes.index); // load index.ejs 
 app.get('/api/tracks', spotify.tracks); // load spotify new release songs list
 app.get('/tracks',routes.index);
