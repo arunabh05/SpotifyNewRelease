@@ -2,10 +2,10 @@
 
 # Spotify New Release
 
-A Single Page application to view the lastest released albums on Spotify.
+A Single Page application to view the new released albums on Spotify.
 
 ## Features
-1. A new releases page to view latest released albums.
+1. A new releases page to view new released albums.
 
 2. A list of albums with sorting toggle.
 
@@ -14,8 +14,8 @@ https://playitdemo.herokuapp.com/
 
 ### Tools
 
-NodeJS
+1. NodeJS
 
-AngularJS
+2. AngularJS
 
-Spotify API
+3. Spotify API
