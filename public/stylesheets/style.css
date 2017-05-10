@@ -1,26 +1,26 @@
 body {
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0;
 	font: 13pt Calibri, Tahoma, Verdana;
 }
 
 .navBar {
 	border-radius: 1px;
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0;
 }
 #track-details{
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0;
 }
 #row{
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0;
 }
 
 #home {
 	padding-top: 250px;
-	margin: 0px;
+	margin: 0;
 	height: 95vh;
 	width: inherit;
 	text-align: center;
@@ -34,7 +34,7 @@ body {
 	background-image:
 		url(/images/download.jpg);
 	padding-top: 50px;
-	margin: 0px;
+	margin: 0;
 	height: 95vh;
 	text-align: center;
 	background-position: top;
@@ -45,7 +45,7 @@ body {
 .img-track{
 	margin-top:20px;
 	width: 200px;
-	height: 190px;	
+	height: 190px;
 }
 
 
