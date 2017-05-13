@@ -12,7 +12,7 @@ A Single Page application to view the new released albums on Spotify.
 ## Link
 https://playitdemo.herokuapp.com/
 
-### Tools
+### Technology Stack
 
 1. NodeJS
 
